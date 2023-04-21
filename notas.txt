@@ -1,0 +1,5 @@
+npm init -y
+npm install -g nodemon 
+npm i express
+npm i handlebars/ hbs para express
+npm i dotenv
