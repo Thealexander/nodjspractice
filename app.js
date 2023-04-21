@@ -17,19 +17,19 @@ app.use(express.static('public'));
 //});
 app.get('/', function (req, res) {
     res.render('home', {
-        nombre: 'Marjurie Martinez',
+        nombre: 'Marjorie Martinez',
         titulo: 'Interprete'
     });
 });
 app.get('/generic', function (req, res) {
     res.render('generic', {
-        nombre: 'Marjurie Martinez',
+        nombre: 'Marjorie Martinez',
         titulo: 'Interprete'
     });
 });
 app.get('/elements', function (req, res) {
     res.render('elements', {
-        nombre: 'Marjurie Martinez',
+        nombre: 'Marjorie Martinez',
         titulo: 'Interprete'
     });
 });
